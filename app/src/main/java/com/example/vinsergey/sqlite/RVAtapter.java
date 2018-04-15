@@ -43,12 +43,10 @@ class RVAdapter extends RecyclerView.Adapter<RVAdapter.UserViewHolder> {
         return new UserViewHolder(view);
     }
 
-    @Override
-    public void onAttachedToRecyclerView(@NonNull RecyclerView recyclerView) {
-        super.onAttachedToRecyclerView(recyclerView);
-    }
-
-
+//    @Override
+//    public void onAttachedToRecyclerView(@NonNull RecyclerView recyclerView) {
+//        super.onAttachedToRecyclerView(recyclerView);
+//    }
 
     @Override
     public int getItemCount() {
